@@ -429,17 +429,17 @@ pbot_13 : "\n**<b>الدردشات التي لم يتم إحضارها:</b>**\n\
 
 
 #Gbanned
-gban_1 : "You want to gban yourself? How Fool!"
-gban_2 : "Should i block myself? Lol"
-gban_3 : "You want to block a sudo user?"
-gban_4 : "{0} is already **gbanned** from the bot."
-gban_5 : "**Initializing Global Ban on {0}**\n\nExpected Time : {1}."
-gban_6 : "**Gbanned Successfully**\n\nBanned **{0}** from **{1}** chats."
-gban_7 : "{0} is not **gbanned **yet from the bot."
-gban_8 : "**Ungbanning {0}**\n\nExpected Time : {1}."
-gban_9 : "**UnGbanned Successfully**\n\nUnbanned **{0}** in **{1}** chats."
-gban_10 : "No Gbanned Users Found."
-gban_11 : "Please wait a while.. Fetching Gbanned users list"
+gban_1 : تريد تحظر روحك ؟ الحمد لله والشكر !"
+gban_2 : "يعني هسة لازم احظر نفسي ؟ ضحكك"
+gban_3 : "كل عقلك تريد تحظرة وهو مطور ?"
+gban_4 : "{0} هو بالفعل **محظور** من البوت."
+gban_5 : "**جاري اعادة ضبط المحظورين {0}**\n\nالوقت المتوقع : {1}."
+gban_6 : "**تم حظره**\n\nمحظور  **{0}** من **{1}** مجموعة ."
+gban_7 : "{0} غير محظور من البوت حتى الان ."
+gban_8 : "**يتم الان {0}**\n\nالوقت المتوقع : {1}."
+gban_9 : "**تم الغاء حظره **\n\nغير محظور **{0}** في **{1}** مجموعه."
+gban_10 : "الله وكيلك فارغه ."
+gban_11 : "يرجى الانتظار قليلا.. يم جلب القائمه"
 
 #Suggestions
 sug_0 : "❓**هل تعلم ?**\n\n✅ "
