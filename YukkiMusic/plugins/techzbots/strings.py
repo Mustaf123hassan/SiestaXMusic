@@ -4,17 +4,17 @@ from config import MUSIC_BOT_NAME as BOT_NAME
 
 BOT_USERNAME = app.username
 START_TEXT = f"""
-✨ **يمة فدواا للصافني 🌚♥️ !**
+✨ **ها يحلوو هياتني  🌚♥️ !**
 
-**You can use [{BOT_NAME}](https://t.me/{BOT_USERNAME}) to play Music or Videos in your Group Video Chat.**
+**يمكنك استخدام [{BOT_NAME}](https://t.me/{BOT_USERNAME}) لتشغيل الاغاني والفيديوهات في مجموعتك.**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the ➤ 📚 Commands button**
+💡 **اكتشف جميع اوامر البوت وفهمها من خلال الضغط على زر  ➤ 📚 الاوامر **
 """
 
 COMMANDS_TEXT = f"""
-✨ **Hello MENTION !**
+✨ **هلا حبب 🌚💞 !**
 
-**Click on the buttons below to know my commands.**
+**اضفط على الزر ادناه لمعرفة اوامري .**
 """
 
 START_BUTTON_GROUP = InlineKeyboardMarkup(
@@ -152,102 +152,98 @@ SUDO_BACK_BUTTON = InlineKeyboardMarkup(
 
 
 ADMIN_TEXT = f"""
-✅--**Admin Commands:**--
+✅--**اوامر الادمنية:**--
 
-c stands for channel play.
+c ضع الحرف قبل الامر لتنفيذه في المجموعة.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
+/pause أو /cpause - توقف الموسيقى المُشغلة.
+/resume or /cresume- استئناف الموسيقى المشغلة.
+/mute or /cmute- كتم صوت الموسيقى.
+/unmute or /cunmute- الغاء الكتم عن البوت.
+/skip or /cskip- التخطي للاغنية التالية في قائمة التشغيل.
+/stop or /cstop- ايقاف كل الاغاني.
+/shuffle or /cshuffle- ترتيب عشوائي للاغاني في قائمة التشغيل.
 
-✅--**Specific Skip:**--
-/skip or /cskip [Number(example: 3)] 
-    - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+✅--**التخطي المحدد:**--
+/skip or /cskip [رقم (مثلا : 3)] 
+    - يتخطى الموسيقى إلى الرقم المحدد في قائمة الانتظار.  مثال: سيتخطى / skip 3 الموسيقى إلى الموسيقى في قائمة الانتظار الثالثة ويتجاهل الموسيقى 1 و 2 في قائمة الانتظار
 
-✅--**Loop Play:**--
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
-    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
+✅--**وضع الحلقة:**--
+/loop or /cloop [enable/disable] or [رقم بين  1-10] 
+    - عند التنشيط ، يقوم البوت بتكرار تشغيل الموسيقى الحالية إلى 1-10 مرات في الدردشة الصوتية.  افتراضي إلى 10 مرات.
 
 """
 AUTH_TEXT = """
-✅--**Auth Users:**--
-Auth Users can use admin commands without admin rights in your chat.
-
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group.
+✅--**اوامر المعتمدين:**--
+المستخدمين المعتمدون سيستطيعون استخدام جميع اوامر المشرفين بدون رفعهم مشرف في المجموعة 
+/auth [اليوزر] - اضف شخص لقائمة المعتمدين.
+/unauth [اليوزر] - لحذف شخص من القائمة.
+/authusers - جلب قائمة المعتمدين.
 """
 
 AUTH_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="admin_cmd"
+                text="↪️ عودة", callback_data="admin_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🔄 اغلاق", callback_data="close_btn"
             ),            
         ],                        
     ]
 )
 
 BOT_TEXT = """
-✅--**Bot Commands:**--
+✅--**اوامر البوت:**--
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
+/stats - الحصول على توب 10 محادثات و توب 10 اغاني وتوب 10 اغاني الخ...
 
-/sudolist - Check Sudo Users of Yukki Music Bot
+/sudolist - فحص قائمه المطورين 
 
-/lyrics [Music Name] - Searches Lyrics for the particular Music on web.
+/lyrics [اسم الاغنية] - لجلب كلمات الاغاني من الويب.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/song [اسم الاغنية] or [الرابط] - لتحميل اغنية من اليوتيوب.
 
-c stands for channel play.
-/queue or /cqueue- Check Queue List of Music.
+c ضع الحرف قبل الامر لتنفيذه في القناة
+/queue or /cqueue- تفقد قائمة الانتظار.
 """
 
 PLAY_TEXT = """
-✅--**Play Commands:**--
+✅--**اوامر التشغيل:**--
 
-Available Commands = play , vplay , cplay
-
-ForcePlay Commands = playforce , vplayforce , cplayforce
-
-c stands for channel play.
-v stands for video play.
-force stands for force play.
-
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
-
-/playforce or /vplayforce or /cplayforce -  Force Play stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
-
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+الاوامر المتوفرة = play , vplay , cplay
 
 
-✅--**Bot's Server Playlists:**--
-/playlist  - Check Your Saved Playlist On Servers.
-/deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers.
+c ضع الحرف قبل الامر لتنفيذه في القناة.
+v ضع الحرف قبل الامر لتنفيذ في الفيديو.
+
+
+/play or /vplay or /cplay  - سيبدأ البوت بتشغيل الصوت او الفيديو في مجموعتك أو قناتك.
+
+/channelplay [يوزر القناة ] or [Disable] - اربط القناة مجموعتك او ارفع البوت مشرف على قناتك وقم بتشغيل الاغاني على القناة من خلال مجموعتك .
+
+
+✅--**قائمة تشغيلك في السيرفر:**--
+/playlist  - لتفقد الاغاني المضافه في قائمة التشغيل .
+/deleteplaylist - لحذف قائمة التشغيل المضافه
+/play  - بدأ تشغيل قائمة تشغيلك المضافه.
 """
 
 
 BASIC_TEXT = """
-💠 **Basic Commands:**
+💠 **اوامر اساسية:**
 
-/start - Start the bot
+/start - تشغيل البوت
 
-/help - Get help message
+/help - الحصول على مساعدة
 
-/play - Play songs or videos in vc
+/play - بدأ تشغيل اغنية او فيديو 
 
-/vplay - Play video in VC
+/vplay - بدأ تشغيل فيديو 
 
-/settings - Check Settings of bot in your group
+/settings - تفقد الاعدادات في مجموعتك 
 
-**Some Useful Commands :** 
+**بعض الاوامر المفيدة  :** 
 
 /pause /resume /skip /end /loop /shuffle
 """
