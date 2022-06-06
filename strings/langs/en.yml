@@ -101,14 +101,14 @@ setting_15 : "Failed to resolve peer, Make sure you have added bot in your chann
 setting_16 : "⁉️ What is This?\n\nWhen activated, Bot will suggest your chat in every 1-2 hour about bot commands (How to use them, which are the commands and many other things) randomly."
 
 
-set_cb_1 : "Getting Audio Quality Panel..."
-set_cb_2 : "Getting Video Quality Panel..."
-set_cb_3 : "Getting Auth Users Panel..."
-set_cb_4 : "Getting Play Mode Panel..."
-set_cb_5 : "Getting Clean Mode Panel..."
-set_cb_6 : "Setting up changes."
-set_cb_7 : "Getting Auth Users List.. PLEASE WAIT."
-set_cb_8 : "Getting back.."
+set_cb_1 : "دقيقة פـياتيـہ هسة اجبيهم ..."
+set_cb_2 : "تأمر أمر ثواني بس ..."
+set_cb_3 : "ويت ..."
+set_cb_4 : "ويت ؏ُـمريـہ ..."
+set_cb_5 : "بس لحضهه..."
+set_cb_6 : "صار حب هسة داجيبهمم."
+set_cb_7 : "هسة اجببلكك راسهمم بس ويت."
+set_cb_8 : "احبكك.."
 
 # Misc
 ustats_1 : "No User Stats Found."
@@ -312,7 +312,7 @@ ST_B_21 : "✅ زر انلاين"
 ST_B_22 : "👨‍⚖️ اوامر الادمن"
 ST_B_23 : "🏘 المجموعة "
 ST_B_24 : "🏷 القناة "
-ST_B_25 : "🫂 اصناف التشغيل"
+ST_B_25 : "🫂 اوامر التشغيل"
 ST_B_26 : "🗑 مسح الاوامر"
 ST_B_27 : "🧑‍🚀 وضع الاقتراحات"
 
