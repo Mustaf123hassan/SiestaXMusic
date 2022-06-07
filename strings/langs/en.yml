@@ -237,7 +237,7 @@ stream_4 : "📡 **بدأ البث** 💡\n\n**🏷العنوان:** [{0}]({1})\
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : ".🗑 اغلاق -"
+CLOSE_BUTTON  : "- اغلاق ."
 CLOSEMENU_BUTTON  : ".🗑 اغلاق القائمة -"
 BACK_BUTTON : ". ⬅ عودة -"
 UNBAN_BUTTON : "🗑 الغاء الحظر "
