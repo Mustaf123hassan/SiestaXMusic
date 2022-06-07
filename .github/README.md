@@ -103,4 +103,4 @@ shikhar@MacBook~ $ sudo bash setup
 
 
 ### قناة التحديثات والمطور  🎑
-<a href="https://t.me/ov_tr"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/trztb"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ov_tr"><img src="https://img.shields.io/badge/حساب-المطور%20للدعم-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/trztb"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
