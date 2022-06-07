@@ -145,18 +145,15 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**معلومات مسار الفيديو**__
-
-❇️**العنوان:** {title}
-
-⏳**المدة:** {duration} Mins
-👀**المشاهدات:** `{views}`
-⏰**وقت النشر:** {published}
-🎥**اسم القناة:** {channel}
-📎**رابط القناة:** [زيارة القناة]({channellink})
-🔗**رابط الفيديو:** [هنا]({link})
-
-⚡️ __تم البحث بواسطة {config.MUSIC_BOT_NAME}__"""
+🔍__**Video Track Information**__
+❇️**Title:** {title}
+⏳**Duration:** {duration} Mins
+👀**Views:** `{views}`
+⏰**Published Time:** {published}
+🎥**Channel Name:** {channel}
+📎**Channel Link:** [Visit From Here]({channellink})
+🔗**Video Link:** [Link]({link})
+⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
                 [
                     [
