@@ -2,16 +2,39 @@
 
 <p align="center"><img src="https://te.legra.ph/file/104e7ea2b66819f89043c.jpg" alt="ICON" width="80%"/></p>
 
-# SiestaXMusic
+# ماغي ميوزك
 
-[SiestaXMusic](https://github.com/TechShreyash/SiestaXMusic) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
+<h1 align="center"><b> ماغي ميوزك </b></h1>
 
-* Youtube, Soundcloud, Apple Music, Spotify, Resso and Telegram Audios & Videos support.
-* Written from scratch, making it stable and less crashes.
-* Attractive thumbnails, fonts and images,  making experience more user-friendly and interactive.
-* Loop, Shuffle, Specific Skip, Playlists etc support
-* Global, Users, Chats Top 10 played tracks stats
-* Multi-Language support
+<p align="center">
+    <br><b>يدعم تشغيل الموسيقي والفديو داخل المحادثات الصوتية</b><br>
+</p>
+<p align="center">
+    <a href="https://www.python.org/" alt="اللغة المستخدمة"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
+</p>
+## 🧪الحصول علي جلسة البيوجرام:
+
+[![جلسة بيوجرام](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py) ``TAELR``
+
+## 🎭 حقوق السورس
+<p align="center">
+  <img src="https://telegra.ph/file/e68855e3be3191ca84624.jpg">
+</p>
+
+## ✨ المميزات
+- يدعم تشغيل الفديو والموسيقي في المحادثة
+- يدعم المحادثات المتعددة
+- قائمه الانتظار مدعم
+- تخطي وتوقف واستمرار مدعم
+- يدعم تحميل فديو وصوت 
+- يدعم البحث انلاين
+- يدعم البحث المباشر من يوتيوب
+- يدعم البث الحي من يوتيوب
+- يدعم التحكم عن طريق الازرار
+- يدعم التحكم بالصوت
+- يدعم الدخول التلقائي للبوت المساعد
+- تحديث مباشر
+
 
 ## 🛠 الاوامر:
 | الاوامر | الوصف |
@@ -126,8 +149,8 @@ For more information on the technologies that power the SiestaXMusic, check out 
 
 
 ```console
-shikhar@MacBook~ $ git clone https://github.com/TechShreyash/SiestaXMusic
-shikhar@MacBook~ $ cd SiestaXMusic
+shikhar@MacBook~ $ git clone https://github.com/Mustaf123hassan/xmusicc
+shikhar@MacBook~ $ cd xmusicc
 shikhar@MacBook~ $ sudo bash setup
 ```
 > Setup will install each and every requirement, nodejs and pip packages automatically. After successfull installation of requirements , setup will ask you to input your vars.
@@ -147,8 +170,8 @@ shikhar@MacBook~ $ bash start
 
 Reach out to the maintainer at one of the following places:
 
-- [Updates Channel](https://telegram.me/TechZBots)
-- [Support Group](https://telegram.me/TechZBots_Support)
+- [قناة التحديثات](https://telegram.me/trztb)
+- [مطور السورس](https://telegram.me/ov_tr)
 
 ## 🎗 Project assistance
 
