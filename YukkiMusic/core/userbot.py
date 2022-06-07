@@ -44,7 +44,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"Starting Assistant Clients")
+        LOGGER(__name__).info(f"بدء العملاء المساعدين")
         if config.STRING1:
             await self.one.start()
             try:
@@ -55,7 +55,7 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "بدأ المساعد"
                 )
             except:
                 LOGGER(__name__).error(
