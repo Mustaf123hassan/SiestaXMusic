@@ -2,8 +2,6 @@
 
 <p align="center"><img src="https://te.legra.ph/file/104e7ea2b66819f89043c.jpg" alt="ICON" width="80%"/></p>
 
-# ماغي ميوزك
-
 <h1 align="center"><b> ماغي ميوزك </b></h1>
 
 <p align="center">
