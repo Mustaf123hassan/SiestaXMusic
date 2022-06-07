@@ -58,54 +58,12 @@
 | `/rmd` | مسح جميع الملفات المحمله |
 
 
-# 🔗 An Overview
-
-Here's a brief high-level overview of the SiestaXMusic:
-
-This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
-
-* For database, SiestaXMusic uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
-* Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
-* The project uses the font [`Poppins`](../assets/font.ttf) as its main font for the thumbnails.
-* The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
-
-For more information on the technologies that power the SiestaXMusic, check out the [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/).
-
-
-
-# ⚡️ Getting Started
-
-### Before deploying SiestaXMusic , please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
-
-> If you want to start working with SiestaXMusic you can either fork or import repo .
-> The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
-> If you'd like to talk to us, join us on our [Telegram Group](https://telegram.me/TechZBots_Support)
-
-
-## 🖇 Prerequisites
-
-> In order to avoid conflicts in your project, you must have/installed
-
-- [Python3.9](https://www.python.org/downloads/release/python-390/)
-- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
-- [Telegram Bot Token](https://t.me/botfather)
-- [MongoDB URI](https://telegra.ph/How-To-get-Mongodb-URI-04-06)
-- [Pyrogram String Session](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/string-session)
-
-
-## 🖇 Generating Pyrogram String Session
-
-- Generate a Pyrogram String Session via [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen)
-
-- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/YukkiStringBot)
-
-
 ## 🖇 Heroku Deployment
 
 <h4>Click the button below to deploy SiestaXMusic on Heroku!</h4>    
-<a href="https://dashboard.heroku.com/new?template=https://github.com/TechShreyash/SiestaXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Mustaf123hassan/xmusicc"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
-> How to Deploy To Heroku? [Watch Tutorial](https://www.youtube.com/embed/NPTk-awGalY)
+> كيفية التنصيب ? [شاهد فيديو](https://www.youtube.com/embed/NPTk-awGalY)
 
 > Click on buttons below to expand and  detailed explanation process. !
     
@@ -167,18 +125,5 @@ shikhar@MacBook~ $ bash start
 
 Reach out to the maintainer at one of the following places:
 
-- [قناة التحديثات](https://telegram.me/trztb)
-- [مطور السورس](https://telegram.me/ov_tr)
-
-## 🎗 Project assistance
-
-If you want to say **thank you** or/and support active development of SiestaXMusic:
-
-- Add a [GitHub Star](https://github.com/TechShreyash/SiestaXMusic) to the project.
-- Fork the Repo :)
-
-## 👨🏻‍💻 Authors & contributors
-
-The original setup of this repository is by [Team Yukki](https://github.com/TeamYukki).
-
-For a full list of all authors and contributors, see [the contributors page](https://github.com/TeamYukki/YukkiMusicBot/contributors).
+### قناة التحديثات والمطور  🎑
+<a href="https://t.me/trztb"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/ov_tr"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
