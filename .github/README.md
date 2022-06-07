@@ -66,11 +66,10 @@
 .
 
 
-## 🖇 تنصيب هيروكو 
+## التنصيب على هيوركو 
+من أسهل طرق تشغيل البوت ولكن مدتها 22 يوم فقط 
 
-<h4>اضغط على الزر ادناه لتنصيب ماغي ميوزك بوت !</h4>    
-<a href="https://dashboard.heroku.com/new?template=https://github.com/Mustaf123hassan/xmusicc"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
-
+[![تشغيل](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mustaf123hassan/xmusicc)
 > كيفية التنصيب ? [شاهد فيديو](https://www.youtube.com/embed/NPTk-awGalY)
 
 .
