@@ -33,7 +33,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("YukkiMusic").error(
-            "No Assistant Clients Vars Defined!.. Exiting Process."
+            "لم يتم تعريف المتغيرات المساعدة للعملاء! .. عملية الخروج."
         )
         return
     if (
@@ -41,7 +41,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("YukkiMusic").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+            "لم يتم تحديد سبوتيفي فارز. لن يتمكن الروبوت الخاص بك من تشغيل استعلامات Spotify."
         )
     try:
         users = await get_gbanned()
@@ -66,16 +66,16 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("YukkiMusic").error(
-            "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
+            "[ERROR] - \n\nيرجى تشغيل المكالمة الصوتية لمجموعة  تأكد من أنك لا تغلق أبدًا/end مكالمة صوتية في مجموعة السجل الخاصة بك"
         )
         sys.exit()
     except:
         pass
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("Yukki Music Bot Started Successfully")
+    LOGGER("YukkiMusic").info("بدأ بوت ماغي بنجاح")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("YukkiMusic").info("جار ايقاف بوت ماغي .اودعناكم")
