@@ -61,11 +61,6 @@
 
 .
 
-.
-
-.
-
-
 ## التنصيب على هيوركو 
 من أسهل طرق تشغيل البوت ولكن مدتها 22 يوم فقط 
 
@@ -75,11 +70,6 @@
 .
 
 .
-
-.
-
-.
-
 
 ## 🖇 تنصيب في السيرفر
 
@@ -91,10 +81,6 @@ shikhar@MacBook~ $ git clone https://github.com/Mustaf123hassan/xmusicc
 shikhar@MacBook~ $ cd xmusicc
 shikhar@MacBook~ $ sudo bash setup
 ```
-
-.
-
-.
 
 .
 
