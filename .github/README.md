@@ -66,9 +66,12 @@
 <a href="https://dashboard.heroku.com/new?template=https://github.com/Mustaf123hassan/xmusicc"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
 > كيفية التنصيب ? [شاهد فيديو](https://www.youtube.com/embed/NPTk-awGalY)
+.
 
 
+.
 
+.
 
 
 ## 🖇 تنصيب في السيرفر
@@ -82,7 +85,9 @@ shikhar@MacBook~ $ cd xmusicc
 shikhar@MacBook~ $ sudo bash setup
 ```
 
+.
 
+.
 
 ### قناة التحديثات والمطور  🎑
 <a href="https://t.me/ov_tr"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/trztb"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
