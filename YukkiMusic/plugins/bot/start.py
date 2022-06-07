@@ -53,7 +53,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                "🔎 Fetching your personal stats.!"
+                "🔎إحضار الإحصائيات الشخصية الخاصة بك.!"
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -145,26 +145,26 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**Video Track Information**__
+🔍__**معلومات مسار الفيديو**__
 
-❇️**Title:** {title}
+❇️**عنوان:** {title}
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
-🔗**Video Link:** [Link]({link})
+⏳**مدة:** {duration} Mins
+👀**الآراء:** `{views}`
+⏰**وقت النشر:** {published}
+🎥**اسم القناة:** {channel}
+📎**رابط القناة:** [Visit From Here]({channellink})
+🔗**رابط الفيديو:** [Link]({link})
 
-⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
+⚡️ __تم البحث بواسطة {config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch ", url=f"{link}"
+                            text="🎥 شاهد ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🔄 Close", callback_data="close"
+                            text="🔄 أغلق", callback_data="close"
                         ),
                     ],
                 ]
