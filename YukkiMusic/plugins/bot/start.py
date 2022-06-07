@@ -153,8 +153,8 @@ async def start_comm(client, message: Message, _):
 👀**الآراء:** `{views}`
 ⏰**وقت النشر:** {published}
 🎥**اسم القناة:** {channel}
-📎**رابط القناة:** [Visit From Here]({channellink})
-🔗**رابط الفيديو:** [Link]({link})
+📎**رابط القناة:** [زيارة القناة]({channellink})
+🔗**رابط الفيديو:** [هنا]({link})
 
 ⚡️ __تم البحث بواسطة {config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
